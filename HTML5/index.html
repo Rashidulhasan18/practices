@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid grey;
+            padding: 5px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add audio video tag practice.</h1>
+    <audio src="media/audio/roost voice over.mp3" controls>Play Music</audio>
+    <video src="media/video/Gauss's Law.mp4" width="250" controls >Play Video</video>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>161501</td>
+                <td>Jhon</td>
+                <td>Ten</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>161502</td>
+                <td>Jae</td>
+                <td>Ten</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>161503</td>
+                <td>Rae</td>
+                <td>Nine</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>LungiLand</h1>
+    <form action="">
+        <p>Name:<input type="text" placeholder="Enter your name"></p>
+        <p>Email:<input type="text" placeholder="Enter your mail"></p>
+        <fieldset>
+            <legend>Select your fabrics</legend>
+                <p><label for="Cotton"><input type="radio" name="fabrics" id="Cotton">Cotton</label></p>
+                <p><label for="Semi-cotton"><input type="radio" name="fabrics" id="Semi-cotton">Semi-cotton</label></p>
+                <p><label for="Voyel"><input type="radio" name="fabrics" id="Voyel">Voyel</label></p>       
+        </fieldset>
+        <fieldset>
+            <legend>Select your color</legend>
+            <p><label for="red"><input type="checkbox" name="color" id="red">red</label></p>
+            <p><label for="green"><input type="checkbox" name="color" id="green">green</label></p>
+            <p><label for="blue"><input type="checkbox" name="color" id="blue">blue</label></p>
+        </fieldset>
+        <br>
+        <h3>Special Instruction</h3>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
